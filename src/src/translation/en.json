@@ -1,9 +1,0 @@
-{
-  "message": {
-    "required": "は必須項目です。",
-    "email": "の入力形式が正しくありません。"
-  },
-  "controlsName": {
-    "email": "メールアドレス"
-  }
-}

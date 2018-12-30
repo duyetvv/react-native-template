@@ -3,6 +3,9 @@ import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import { View, Text } from 'react-native';
 
+import AppContainer from '../../routing';
+
+
 class App extends React.PureComponent {
   constructor(props) {
     super(props);
@@ -14,9 +17,11 @@ class App extends React.PureComponent {
 
   render() {
     return (
-      <View>
-        <Text>The imazing app say {this.state.message}!</Text>
-      </View>
+      <AppContainer>
+        <View>
+          <Text>The imazing app say {this.state.message}!</Text>
+        </View>
+      </AppContainer>
     )
   }
 }
@@ -24,7 +29,7 @@ class App extends React.PureComponent {
 const mapStateToProps = createStructuredSelector({});
 
 const mapDispatchToProps = (dispatch) => ({
-
+  dispatch,
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
