@@ -3,7 +3,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 
-import App from './containers/App';
+import App from './screens/App';
 import configureStore from './configureStore';
 
 const store = configureStore();
