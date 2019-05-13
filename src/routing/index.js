@@ -1,21 +1,18 @@
 
-import { createStackNavigator, createAppContainer } from 'react-navigation';
+import { createDrawerNavigator, createAppContainer } from 'react-navigation';
 
 import HomeScreen from '../screens/Home';
 import SignInScreen from '../screens/SignIn';
 
-
-const AppNavigator = createStackNavigator({
+const MyDrawerNavigator = createDrawerNavigator({
   Home: {
     screen: HomeScreen,
   },
-  Details: {
+  SignIn: {
     screen: SignInScreen,
   },
-}, {
-    initialRouteName: 'Home',
 });
 
 
-export default AppContainer = createAppContainer(AppNavigator);
+export default AppContainer = createAppContainer(MyDrawerNavigator);
 

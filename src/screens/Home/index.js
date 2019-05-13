@@ -1,7 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
-import { View, Text } from 'react-native';
+import { View, Text, Image, Button } from 'react-native';
+
+import { styles } from './styles';
 
 class Home extends React.PureComponent {
   constructor(props) {
@@ -14,7 +16,13 @@ class Home extends React.PureComponent {
 
   static navigationOptions = ({ navigation }) => {
     return {
-      title: 'Home',
+      drawerLabel: 'Home',
+      drawerIcon: ({ tintColor }) => (
+        <Image
+          source={require('../../assets/images/chats-icon.png')}
+          style={[styles.icon, { tintColor: tintColor }]}
+        />
+      ),
     };
   };
 
@@ -22,6 +30,10 @@ class Home extends React.PureComponent {
     return (
       <View>
         <Text>Welcome to {this.state.message}!</Text>
+        <Button
+          onPress={() => this.props.navigation.navigate('SignIn')}
+          title="Go to SignIn"
+        />
       </View>
     )
   }
