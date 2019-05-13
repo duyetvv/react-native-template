@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\DUYET\\PROJECT\\react-native-template\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
+            "outputFile": "D:\\DUYETVV\\Training\\react-native-template\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\3bd4e75d5ebc9a56920c568269e522bb\\res\\values-fr\\values-fr.xml",
+                    "source": "C:\\Users\\duyetvv\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\f9b1e318003afb300c89a285f46f0f79\\res\\values-fr\\values-fr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\8f257f556386bc01e8a4e50e4443580b\\res\\values-fr\\values-fr.xml",
+                    "source": "C:\\Users\\duyetvv\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a7eb6ed05f82457748b9059f711b1d47\\res\\values-fr\\values-fr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
