@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
-import { View, Text } from 'react-native';
+import { View, Text, Button } from 'react-native';
 
 class SignIn extends React.PureComponent {
   constructor(props) {
@@ -22,6 +22,10 @@ class SignIn extends React.PureComponent {
     return (
       <View>
         <Text>Welcome to {this.state.message}!</Text>
+        <Button
+          title="Go to Home"
+          onPress={() => this.props.navigation.navigate('Home')}
+        />
       </View>
     )
   }

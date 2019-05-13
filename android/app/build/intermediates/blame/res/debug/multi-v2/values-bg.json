@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\DUYET\\PROJECT\\react-native-template\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
+            "outputFile": "D:\\DUYETVV\\Training\\react-native-template\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\3bd4e75d5ebc9a56920c568269e522bb\\res\\values-bg\\values-bg.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,220,327,432,518,623,744,823,901,984,1098,1207,1307,1421,1527,1635,1795,1894",
-                        "endColumns": "114,106,104,85,104,120,78,77,82,113,108,99,113,105,107,159,98,82",
-                        "endOffsets": "215,322,427,513,618,739,818,896,979,1093,1202,1302,1416,1522,1630,1790,1889,1972"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\NGAN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\8f257f556386bc01e8a4e50e4443580b\\res\\values-bg\\values-bg.xml",
+                    "source": "C:\\Users\\duyetvv\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a7eb6ed05f82457748b9059f711b1d47\\res\\values-bg\\values-bg.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "1977",
                         "endColumns": "100",
                         "endOffsets": "2073"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\duyetvv\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\f9b1e318003afb300c89a285f46f0f79\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,220,327,432,518,623,744,823,901,984,1098,1207,1307,1421,1527,1635,1795,1894",
+                        "endColumns": "114,106,104,85,104,120,78,77,82,113,108,99,113,105,107,159,98,82",
+                        "endOffsets": "215,322,427,513,618,739,818,896,979,1093,1202,1302,1416,1522,1630,1790,1889,1972"
                     }
                 }
             ]
