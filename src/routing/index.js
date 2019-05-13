@@ -8,12 +8,9 @@ import SignInScreen from '../screens/SignIn';
 const AppNavigator = createStackNavigator({
   Home: {
     screen: HomeScreen,
-    path: '/',
-    navigationOptions: ({ navigation }) => {
-      console.log(navigation);
-      return ({
+    navigationOptions: ({ navigation }) => ({
       title: navigation.getParam('title') || 'Home',
-    })}
+    })
   },
   SignIn: {
     screen: SignInScreen,

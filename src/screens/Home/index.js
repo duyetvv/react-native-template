@@ -4,6 +4,8 @@ import { createStructuredSelector } from 'reselect';
 import { View, Text, Button } from 'react-native';
 import { NavigationEvents } from 'react-navigation';
 
+import LogoTitle from '../../components/Logo';
+
 class Home extends React.PureComponent {
   constructor(props) {
     super(props);
@@ -21,12 +23,11 @@ class Home extends React.PureComponent {
     console.log('Home Release');
   }
 
-  static navigationOptions = ({ navigation }) => {
-    return {
-      title: navigation.getParam('title') || 'Home',
-    };
-  };
-
+  // static navigationOptions = ({ navigation }) => {
+  //   return {
+  //     title: navigation.getParam('title') || 'Home',
+  //   };
+  // };
 
   onPress = () => {
     this.props.navigation.navigate('SignIn', {

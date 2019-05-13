@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import { View, Text, Button } from 'react-native';
 
+
 class SignIn extends React.PureComponent {
   constructor(props) {
     super(props);
@@ -38,6 +39,14 @@ class SignIn extends React.PureComponent {
   static navigationOptions = ({ navigation }) => {
     return {
       title: 'SignIn Screen',
+      // headerTitle: <LogoTitle />,
+      // headerRight: (
+      //   <Button
+      //     onPress={() => alert('This is a button!')}
+      //     title="Info"
+      //     color="#fff"
+      //   />
+      // ),
     };
   };
 
