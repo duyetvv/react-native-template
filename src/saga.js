@@ -1,5 +1,5 @@
 import { all } from 'redux-saga/effects'
-// import appSaga from './containers/App/saga';
+// import appSaga from './screens/App/saga';
 
 export default function* sagas() {
   yield all([
