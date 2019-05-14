@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import { View, Text, Image, Button } from 'react-native';
 
+import DrawerToggle from '../../components/DrawerToggle';
+
 import { styles } from './styles';
 
 class Home extends React.PureComponent {
@@ -26,9 +28,14 @@ class Home extends React.PureComponent {
     };
   };
 
+  openDrawer = () => {
+    this.props.navigation.openDrawer();
+  }
+
   render() {
     return (
       <View>
+        <DrawerToggle openDrawer={this.openDrawer} />
         <Text>Welcome to {this.state.message}!</Text>
         <Button
           onPress={() => this.props.navigation.navigate('SignIn')}

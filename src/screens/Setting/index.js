@@ -1,28 +1,29 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
-import { View, Text, Button, Image } from 'react-native';
+import { View, Text, Image } from 'react-native';
 
 import DrawerToggle from '../../components/DrawerToggle';
 
 import { styles } from './styles';
 
-class SignIn extends React.PureComponent {
+
+class Setting extends React.PureComponent {
   constructor(props) {
     super(props);
 
     this.state = {
-      message: 'SIGNIN'
+      message: 'SETTING'
     }
   }
-  
+
   static navigationOptions = ({ navigation }) => {
     return {
-      drawerLabel: 'Sign In',
+      drawerLabel: 'Setting',
       drawerIcon: ({ tintColor }) => (
         <Image
           source={require('../../assets/images/sign-in.png')}
-          style={[styles.icon, {tintColor: tintColor}]}
+          style={[styles.icon, { tintColor: tintColor }]}
         />
       ),
     };
@@ -37,10 +38,6 @@ class SignIn extends React.PureComponent {
       <View>
         <DrawerToggle openDrawer={this.openDrawer} />
         <Text>Welcome to {this.state.message}!</Text>
-        <Button
-          onPress={() => this.props.navigation.goBack()}
-          title="Go back home"
-        />
       </View>
     )
   }
@@ -52,4 +49,4 @@ const mapDispatchToProps = (dispatch) => ({
   dispatch,
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(SignIn);
+export default connect(mapStateToProps, mapDispatchToProps)(Setting);
